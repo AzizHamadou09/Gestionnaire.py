@@ -37,12 +37,12 @@ class gestionnaire(personneBanque):
             else:
                print("desolé ce compte n'existe pas")
   def suprimer(self):#definition de la fonction supprimer
-      print("veuillez vous identifiez pour supprimer\n")
+      print("veuillez vous identifiez pour supprimer votre compte\n")
        ide=input("entrer votre id\n")
        code=input("entrez votre mot de passe\n")
        if ide!=self.id:
            print("compte n'existe pas\n")
-        elif code!=self.cod1:
+        elseif code!=self.cod1:
            print("compte n'existe pas\n")
         else:
            self.utilisateure=""
