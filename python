@@ -31,12 +31,12 @@ class gestionnaire(personneBanque):
            print("les nouveaux mots de passes sont different\n")
             self.cod1=input("entrer votre nouveau\n")
             self.cod2=input("confirmer votre mot de passe\n")
-            print("votre mot de passe est modifié avec succès\n")
+           print("votre mot de passe est modifié avec succès\n")
             else:
                print("option non disponible")
             else:
                print("desolé ce compte n'existe pas")
-  def suprimer(self):#definition de la fonction supprimer
+ def suprimer(self):#definition de la fonction supprimer
       print("veuillez vous identifiez pour supprimer\n")
        ide=input("entrer votre id\n")
        code=input("entrez votre mot de passe\n")
